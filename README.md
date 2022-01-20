@@ -24,6 +24,8 @@ the current plan.
 
 ### Future
 
+| Week     | Topics                                        | Due
+|----------|-----------------------------------------------|---------------------------------------
 | 2: 01/24 | Math review, data types                       | quiz
 | 3: 01/31 | Tools and Data wrangling                      | quiz, homework
 | 4: 02/07 | Visualization                                 | quiz, homework
