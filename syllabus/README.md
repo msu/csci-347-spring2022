@@ -52,7 +52,7 @@ Upon completion of this course, students will be able to:
 
 **Quizzes:** We will have weekly quizzes.  That is, there will be a quiz posted
 on or before Tue. Students are encouraged to complete the quiz after lecture on
-Thurs (but the quiz will be due by Mon 23:59 Mountain Time)
+Thurs (but the quiz will be due before class on Tue)
 
 **Homework:** All homework is to be completed individually, although online
 collaboration and cooperation with classmates is encouraged. Students are
