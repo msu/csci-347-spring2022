@@ -76,7 +76,8 @@ Gradescope. Quizzes will be submitted on Brightspace. All course resources
 * 30% Homework (approx 8 - about every other week)
 * 10% Quizzes (approx 14 - about one per week)
 * 30% Projects (three)
-* 20% Exam (one)
+* 15% Exam (one)
+* 15% Final Project
 
 Note that the tool that I use for grading documents only works with a text
 editor/jupyter or PDFs. So any file format other than code (e.g. `.py` or
