@@ -12,3 +12,8 @@ available for the analysis of real-world data sets.
 ## Links
 - [Syllabus](./syllabus)
 - [Schedule](./schedule)
+
+## Acknowledgements
+
+This course was originally developed by [Veronika
+Strnadova-Neeley](https://www.cs.montana.edu/veronika/)
