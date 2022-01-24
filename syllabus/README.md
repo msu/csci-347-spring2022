@@ -48,7 +48,7 @@ Upon completion of this course, students will be able to:
 
 ## Expectations
 
-**Meeting Time:** Tue, Thurs 15:05-16:20, 101 Reid Hall
+**Meeting Time:** Tue, Thurs 15:05-16:20, 008 Romney Hall
 
 **Quizzes:** We will have weekly quizzes.  That is, there will be a quiz posted
 on or before Tue. Students are encouraged to complete the quiz after lecture on

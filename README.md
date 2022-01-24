@@ -10,6 +10,7 @@ course is a first introduction to popular techniques, algorithms, and tools
 available for the analysis of real-world data sets.
 
 ## Links
+- [Course Content](https://github.com/msu/csci-347-spring2022)
 - [Syllabus](./syllabus)
 
 ## Calendar
