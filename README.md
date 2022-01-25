@@ -15,10 +15,15 @@ available for the analysis of real-world data sets.
 
 ## Calendar
 
-| Date  | Topics                                        | Due
-|-------|-----------------------------------------------|---------------------------------------
-| 01/17 | [Introduction](./notes/01-intro.pdf)          |
-| 02/01 |                                               | quiz 1 (see D2L)
+Optional Readings Key:
+- DM - [Data Mining and Analysis: Fundamental Concepts and Algorithms](https://dataminingbook.info/book_html/)
+
+| Date  | Topics                                        | Due                           | Reading                       |
+|-------|-----------------------------------------------|-------------------------------|-------------------------------|
+| 01/17 | [Introduction](./notes/01-intro.pdf)          |                               |                               |
+| 01/25 | Math review (TBD)                             |                               | DM - chapter 1                |
+| 01/25 | Math review (TBD)                             |                               | DM - chapter 1                |
+| 02/01 |                                               | quiz 1 & quiz 2 (see D2L)     |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.
