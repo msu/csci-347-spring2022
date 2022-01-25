@@ -12,6 +12,7 @@ available for the analysis of real-world data sets.
 ## Links
 - [Course Content](https://github.com/msu/csci-347-spring2022)
 - [Syllabus](./syllabus)
+- Discussion on MSU Discord (please see D2L for invite or email me if link has expired)
 
 ## Calendar
 
