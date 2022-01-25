@@ -98,10 +98,10 @@ Instructor:
 - **Github**: [dlm](https://github.com/dlm)
 
 TA (TBA):
-- **Name:**
-- **Email:**
-- **Office hours**:
-- **Office:**
+- **Name:** Gerard Shu Fuhnwi
+- **Email:** gerardfuhnwi@yahoo.com
+- **Office hours**: Mondays 3:10pm-4:10pm and 4:10pm-5:10pm
+- **Office:** TBA
 - **Github**:
 
 
