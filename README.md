@@ -22,7 +22,7 @@ Optional Readings Key:
 | Date  | Topics                                        | Due                           | Reading                       |
 |-------|-----------------------------------------------|-------------------------------|-------------------------------|
 | 01/17 | [Introduction](./notes/01-intro.pdf)          |                               |                               |
-| 01/25 | Math review (TBD)                             |                               | DM - chapter 1                |
+| 01/25 | [Stats review](./notes/02a-stats.pdf)         |                               | DM - chapter 1                |
 | 01/25 | Math review (TBD)                             |                               | DM - chapter 1                |
 | 02/01 |                                               | quiz 1 & quiz 2 (see D2L)     |                               |
 
