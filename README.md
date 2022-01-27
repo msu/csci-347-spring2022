@@ -19,12 +19,13 @@ available for the analysis of real-world data sets.
 Optional Readings Key:
 - DM - [Data Mining and Analysis: Fundamental Concepts and Algorithms](https://dataminingbook.info/book_html/)
 
-| Date  | Topics                                        | Due                           | Reading                       |
-|-------|-----------------------------------------------|-------------------------------|-------------------------------|
-| 01/17 | [Introduction](./notes/01-intro.pdf)          |                               |                               |
-| 01/25 | [Stats review](./notes/02a-stats.pdf)         |                               | DM - chapter 1                |
-| 01/25 | Math review (TBD)                             |                               | DM - chapter 1                |
-| 02/01 |                                               | quiz 1 & quiz 2 (see D2L)     |                               |
+| Date  | Topics                                                | Due                           | Reading                       |
+|-------|-------------------------------------------------------|-------------------------------|-------------------------------|
+| 01/17 | [Introduction](./notes/01-intro.pdf)                  |                               |                               |
+| 01/25 | [Stats review](./notes/02a-stats.pdf)                 |                               | DM - chapter 1                |
+| 01/25 | [Linear Algebra review](./notes/02b-linAlg.pdf)       |                               | DM - chapter 1                |
+| 02/01 |  Tools and Data wrangling                             | quiz 1 & quiz 2 (see D2L)     |                               |
+| 02/03 |  Tools and Data wrangling                             | homework 1 (available 01-28)  |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.
@@ -33,7 +34,6 @@ the current plan.
 
 | Week     | Topics                                        | Due
 |----------|-----------------------------------------------|---------------------------------------
-| 2: 01/24 | Math review, data types                       | quiz
 | 3: 01/31 | Tools and Data wrangling                      | quiz, homework
 | 4: 02/07 | Visualization                                 | quiz, homework
 | 5: 02/14 | Graph data                                    | quiz, homework
