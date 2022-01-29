@@ -1,0 +1,83 @@
+\documentclass[11pt]{article}
+
+% set these commands
+\newcommand{\course}{CSCI 347}
+\newcommand{\proj}{Homework 01}
+
+\usepackage{macros}
+
+
+\begin{document}
+
+{ ~\\
+    \course \\ 
+    \proj \\ 
+}
+
+\section*{Problem 1 (2 points)}
+
+What are the two main types of attributes typically found in data?
+
+\section*{Problem 2 (14 points)}
+
+Consider the following data matrix
+
+$$
+    D = \begin{matrix}
+            & X_1   & X_2   & X_3 \\
+        x_1 &  0.3  & 23    & 5.6 \\
+        x_2 &  0.4  &  1    & 5.2 \\
+        x_3 &  1.8  &  4    & 5.2 \\
+        x_4 &  6.0  & 50    & 5.1 \\
+        x_5 & -0.5  & 34    & 5.7 \\
+        x_6 &  0.4  & 19    & 5.4 \\
+        x_7 &  1.1  & 11    & 5.5 \\
+    \end{matrix}
+$$
+
+\begin{enumerate}
+    \item (2 points) What is the estimated mean of $X_3$?
+    \item (2 points) What is the estimated covariance between $X_1$ and $X_3$?
+    \item (2 points) What is the estimated multi-dimensional mean of $D$?
+    \item (2 points) What is the estimated variance of $X_2$?
+    \item (2 points) What is the covariance matrix of $D$?
+    \item (2 points) What is the estimated correlation between $X_1$ and $X_3$?
+    \item (2 points) What is the total variance $D$?
+\end{enumerate}
+
+\section*{Problem 3 (6 points)}
+
+Given $a, b \in \R^4$ (that is a fancy way of saying that $a$ and $b$ are
+4-dimensional vectors with real values) where
+\begin{eqnarray*}
+    a &=& \begin{bmatrix} 2.0  & 5.0 & -2.6 & 6.0 \end{bmatrix} \\
+    b &=& \begin{bmatrix} 15.0 & 2.5 &  4.0 & 4.0 \end{bmatrix}
+\end{eqnarray*}
+
+\begin{enumerate}
+    \item (2 points) What is $\|a-b\|_2$?
+    \item (2 points) What is $\|a-b\|_1$?
+    \item (2 points) What is the cosine of the angle between $a$ and $b$?
+\end{enumerate}
+
+\section*{Problem 4 (3 points)}
+
+The following questions reference the Heart Disease data set from the UCI
+Machine Learning Repository:
+
+\url{https://archive.ics.uci.edu/ml/datasets/Heart+Disease}
+
+\begin{enumerate}
+    \item (1 point) One attribute is named ``cigs''.  What information is stored
+    in the ``cigs'' attribute?
+    \item (1 point) How man rows (i.e., observations, entities, instances) are
+    there in the data set?
+    \item (1 point) How man attributes are there in the data set?
+\end{enumerate}
+
+\section*{Tips and Acknowledgements}
+
+{\bf Acknowledgements:} Homework problems adapted from assignments of
+Veronika Strnadova-Neeley.
+
+\end{document}
