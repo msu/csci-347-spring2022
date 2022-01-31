@@ -97,7 +97,7 @@ Instructor:
 - **Office:** Barnard Hall 359
 - **Github**: [dlm](https://github.com/dlm)
 
-TA (TBA):
+TA
 - **Name:** Gerard Shu Fuhnwi
 - **Email:** gerardfuhnwi@yahoo.com
 - **Office hours**: Mondays 3:10pm-4:10pm and 4:10pm-5:10pm
