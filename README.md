@@ -24,8 +24,9 @@ Optional Readings Key:
 | 01/17 | [Introduction](./notes/01-intro.pdf)                  |                               |                               |
 | 01/25 | [Stats review](./notes/02a-stats.pdf)                 |                               | DM - chapter 1                |
 | 01/25 | [Linear Algebra review](./notes/02b-linAlg.pdf)       |                               | DM - chapter 1                |
-| 02/01 |  Tools and Data wrangling                             | quiz 1 & quiz 2 (see D2L)     |                               |
+| 02/01 | [Tools](./notes/03a-tools.md)                         | quiz 1 & quiz 2 (see D2L)     |                               |
 | 02/03 |  Tools and Data wrangling                             | [homework 1](hw/01.pdf)       |                               |
+| 02/08 |                                                       | quiz 3 (see D2L)              |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.
