@@ -141,7 +141,7 @@ Add a vector to a matrix
 We can use broadcasting for all sorts of applications.  Use the `mean` function
 and broadcasting to to mean center your data:
 
-    D-D.mean()
+    D-D.mean(axis=0)
 
 or `linalg.norm` and broadcasting to scale your data so that each value is
 between 0 and 1
