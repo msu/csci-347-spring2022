@@ -321,9 +321,140 @@ environments in conda. You can see it as it evolves at the Carpentries
 Incubaror](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/04-sharing-environments/index.html).
 
 
-## Next time
-- pandas
+## Pandas
+
+So far, we have investigated how to use numpy as a useful library for
+implementing our primitive, but, often we are not given data as a matrix, but we
+have to do some work to get it to that format.  Perhaps a format that is closer
+to what we will see in practice is data in a csv.
+
+For example, consider the first few lines of data about the titanic [from the
+pandas
+documentation](https://raw.githubusercontent.com/pandas-dev/pandas/main/doc/data/titanic.csv)
+
+    PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+    1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
+    2,1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,PC 17599,71.2833,C85,C
+    3,1,3,"Heikkinen, Miss. Laina",female,26,0,0,STON/O2. 3101282,7.925,,S
+    4,1,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,1,0,113803,53.1,C123,S
+    5,0,3,"Allen, Mr. William Henry",male,35,0,0,373450,8.05,,S
+
+Aside from the non-numeric, which will will see how to encode in a bit, each
+column has meaningful names.  When we are working with this data, wouldn't it be
+nice to refer to the fields by name instead of number.  (For example, column
+"Survived" instead of column 1?).  [Pandas](https://pandas.pydata.org/) is an
+excellent library for working with tabular data.  Let's try out a few examples.
+First, lets grab and load that titanic dataset.  From your notebook
+
+    !curl https://raw.githubusercontent.com/pandas-dev/pandas/main/doc/data/titanic.csv --output titanic.csv
+
+**Aside**: You could also run the command without the '!' from the terminal or
+download it from your browser. Download it in the notebook arguably the best
+option because it documents the location from where you fetched the data and
+helps to make the process you arrived at the final result reproducible.  We
+will likely talk about reproducible research though out the semester.
+
+We can peak at the data with the following command
+
+    !head titanic.csv
+
+Okay, now let's install pandas and load this data in!  From the command line,
+install pandas (make sure that you are working in the csci347 environment)
+
+    conda install pandas
+
+Great!  Let's hop back to our notebook. Import pandas and load the titanic data
+and look at the first few lines:
+
+    import pandas as pd
+    D = pd.read_csv("./titanic.csv")
+    D.head()
+
+Look at how nice that data looks! So professional!  All joking aside... you
+didn't really need to go though all those steps of downloading the data with
+curl and whatnot to get the data.  I wanted to show you that so that you know
+how to get any data over an http connection.  In reality, the following would
+work to load the data directly from github
+
+    D = pd.read_csv("https://raw.githubusercontent.com/pandas-dev/pandas/main/doc/data/titanic.csv")
+
+Probably, the first thing we will want to do with pandas is get subsets of the
+data.  For example, let's say we wanted to get a single column of data such as
+the passenger names.  We can acccess this data similar to how we would data in a
+dictionary.
+
+    D["PassengerId"]
+
+Note that while we only got one column, we have two columns of data.  The first
+column is the row number of the data, the second column is the passenger's name.
+We can use the row numbers to access specific rows.  For example to get the 3rd
+row.
+
+    D["Name"][3]
+
+but, we will often want to get multiple columns, For example, imagine we wanted
+to get Name, Age, and if the passenger survived.   We can get multiple columns
+with a standard python list:
+
+    D[["Name", "Age", "Survived"]]
+
+For those interested in the details of python.  The inner most list `["Name",
+"Age", "Survived"]` is just a regular old python list and the outer `D[...]`
+uses the python `__getitem__` magic method on the pandas dataframe object.
+
+One thing that we will often want to do when working with tables is select
+specific rows. **random rant** from here on out, we will use tables and
+dataframes interchangeably.  While I personally don't care which you call it,
+most in the data science community would call them data frames and we want to be
+cool like them. **back to our regularly scheduled jib-a-jaba**
+
+So, let's say you wanted to grab only the passengers that are over 20
+years old.  First, lets check out something super cool.
+
+    D["Age"] > 20
+
+That "series" of booleans is of length number of rows.  For any row in which the age
+was greater than 20, we will have a true, else we will have a false.  So that is
+pretty nice, but it gets better.  If have a series of trues and falses that is
+the same length as a data frame, we can get any row in which the value is true
+as.
+
+    D[ D["Age"] > 25 ]
+
+This is probably one of the coolest and most helpful ideas that you can learn
+for easily getting subsets of data from a dataframe.   And it doesn't stop
+there, you can create some pretty complex query criterion.  In fact, for
+those that know SQL, many of the major relational algebra operations are
+implemented in the pandas api (See Comparison with SQL for
+more)[https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html].
+
+One other thing to note, sometimes, you just want a few entries of the data for
+playing around, you can use
+
+    D.head()
+
+to get the first 5 entries or specify the number that you want with
+
+    D.head(n=15)
+
+Similarly you can get the last few lines with `D.tail()`.
+
+
+Note that sometimes, you may just want to make a data frame and not have a file
+to load in.  In such a case, we can easily make one with the following code that
+builds a data frame of colors.  (note that we mix strings and numbers)
+
+    df = pd.DataFrame([
+        ['red', 255, 0, 0],
+        ['blue', 0, 0, 255],
+        ['green', 0, 255, 0],
+        ['purple', 127, 0, 255],
+    ])
+    df.columns=['name', 'R', 'G', 'B']
+
+
+## Next week
 - some good data sets for trying things out
 - representing categorical variables
-- simple data visualisation
+- data visualisation
 
