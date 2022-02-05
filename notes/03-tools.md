@@ -43,7 +43,7 @@ docs](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.ht
 
 Now, let's get to environment.  First, let's use conda to create an environment.
 
-    conda create --name csci347
+    conda create --name csci347 python=3.8
 
 And activate the environment
 
