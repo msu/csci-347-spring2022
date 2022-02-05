@@ -101,8 +101,8 @@ TA
 - **Name:** Gerard Shu Fuhnwi
 - **Email:** gerardfuhnwi@yahoo.com
 - **Office hours**: Mondays 3:10pm-4:10pm and 4:10pm-5:10pm
-- **Office:** TBA
-- **Github**:
+- **Office:** TBA will be on [webex](https://montana.webex.com/meet/w37p166)
+- **Github**:[dlm](https://github.com/gshufuhnwi)
 
 
 ## Textbook
