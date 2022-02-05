@@ -310,7 +310,11 @@ and so it is gone.  Let's remake it:
 
     conda env create -f environment.yml
 
-and to make sure, let's just start a python shell and make sure that we can
+and to make sure, let's activate the `csci347` environment
+
+    conda activate csci347
+
+and just start a python shell and make sure that we can
 import numpy
 
     import numpy as np
