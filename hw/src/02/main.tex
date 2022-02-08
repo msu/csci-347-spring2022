@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+
+% set these commands
+\newcommand{\course}{CSCI 347}
+\newcommand{\proj}{Homework 02}
+
+\usepackage{macros}
+
+
+\begin{document}
+
+{ ~\\
+    \course \\ 
+    \proj \\ 
+}
+
+Show your work. Include any code snippets you used to generate an answer, using
+comments in the code to clearly indicate which problem corresponds to which code
+
+Consider the following data matrix
+
+$$
+    D = \begin{matrix}
+            & X_1    & X_2   & X_3   \\
+        x_1 & red    & yes   & north \\
+        x_2 & blue   & no    & south \\
+        x_3 & yellow & no    & east  \\
+        x_4 & yellow & no    & west  \\
+        x_5 & red    & yes   & north \\
+        x_6 & yellow & yes   & north \\
+        x_7 & blue   & no    & west  \\
+    \end{matrix}
+$$
+
+Answer the following:
+
+\begin{enumerate}
+    \item (5 points) Use matplotlib to create a bar plot for the counts of the
+    variable $X_2$.  Make sure to label the axis.
+
+    \item (2 points) Use one-hot encoding to transform all the categorical
+    attributes to numerical values.  Write down the transformed data matrix. (In
+    what follows, we will referred to the transformed data matrix as Y).
+
+    \item (2 points) Use one-hot encoding to transform all the categorical
+    attributes to numerical values.  Write down the transformed data matrix. (In
+    what follows, we will referred to the transformed data matrix as Y).
+
+    \item (2 points) What is the Euclidean distance between instance $x_2$
+    (second row) and $x_7$ (seventh row) after applying one-hot encoding.
+
+    \item (2 points) What is the cosine similarity (cosine of the angle)
+    between data instance $x_2$ and data instance $x_7$ after applying one-hot
+    encoding?
+
+    \item (2 points) What is the Hamming distance between data instance $x_2$
+    and data instance $x_7$ after applying one-hot encoding?
+
+    \item (2 points) What is the Jaccard similarity between data instance $x_2$
+    and $x_7$ after applying one-hot encoding?
+
+
+    \item (2 points) What is the multivariate mean of $Y$?
+
+
+    \item (2 points) What is the estimated variance of the first column of $Y$?
+
+    \item (2 points) What is the resulting matrix after applying standard
+    (z-score) normalization to the matrix $Y$.  In the following, we will call
+    this matrix $Z$.
+
+    \item (2 points) What is the multivariate mean of $Z$?
+
+    \item (2 points) Let $z_i$ be the $i$-th row of $Z$.  What is Euclidean
+    distance between $z_2$ and $z_7$?
+
+\end{enumerate}
+
+{\bf Acknowledgements:} Homework problems adapted from assignments of
+Veronika Strnadova-Neeley.
+
+\end{document}
