@@ -30,6 +30,8 @@ Optional Readings Key:
 | 02/10 |                                                       |                                           |                               |
 | 02/15 |                                                       |                                           |                               |
 | 02/17 |                                                       | [hw 2](hw/02.pdf)                         |                               |
+| 02/22 |                                                       |                                           |                               |
+| 02/24 |                                                       | [proj](proj/01.pdf)                       |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.

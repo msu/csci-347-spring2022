@@ -1,0 +1,45 @@
+\ProvidesPackage{assignment}
+
+\usepackage{amsfonts, amsmath} % cool things like mathbb
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi)
+\usepackage{fullpage} % changes the margin
+\usepackage{graphicx} % add images
+\usepackage{listings} % put code in the document
+\usepackage{tikz} % for drawing FSM
+\usepackage{url} % for addresses
+\usetikzlibrary{arrows,automata} % for drawing FSM
+
+\graphicspath{{./}{images/}}
+
+\pagenumbering{gobble}
+
+\newcommand{\R}{\mathbb{R}}
+
+
+
+
+\newcommand{\pageHeaderFormat}[1]{
+    \section*{#1}
+}
+
+\newcommand{\pageHeader}[1]{
+    \pageHeaderFormat{#1}
+}
+
+\newcounter{examProblemCounter}
+\newcounter{examProblemPartCounter}
+\newcommand{\examProblemPts}[1]{
+    \addtocounter{examProblemCounter}{1}
+    \pageHeaderFormat{Problem \theexamProblemCounter~(#1 Points)}
+}
+
+\newcommand{\examProblem}[1]{
+    \examProblemPts{#1}
+    \setcounter{examProblemPartCounter}{0}
+}
+
+\newcommand{\problemPart}[1]{
+    \addtocounter{examProblemPartCounter}{1}
+    \subsection*{Part \Roman{examProblemPartCounter} (#1 points)}
+}
+

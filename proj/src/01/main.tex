@@ -1,0 +1,160 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+
+% set these commands
+\newcommand{\course}{CSCI 347}
+\newcommand{\proj}{Project 01: Exploratory Data Analysis}
+
+\usepackage{macros}
+
+
+\begin{document}
+
+{ ~\\
+    \course \\ 
+    \proj \\ 
+}
+
+Partner work is allowed on this project. Browse through the
+\href{https://archive.ics.uci.edu/ml/index.php}{UCI Machine Learning Repository}
+to find a data set that is interesting to you, and has both categorical and
+numerical data (but is small enough to work with). \textit{Note}: If your chosen
+data set is not small enough to download, take a sample of the data set that
+contains at least 200 entities (instances/rows).
+
+\section*{Problem 1: Write the Introduction}
+
+In a well-written paragraph, answer the following questions about the data:
+
+\begin{itemize}
+
+    \item (4 points) What was the data used for?
+
+    \item (2 points) Who (or what organization) uploaded the data?
+
+    \item (5 points) How many attributes and how many entities are represented
+    in the data?
+
+    \begin{itemize}
+        \item How many numerical attributes?
+        \item How many categorical attributes?
+        \item Would you suggest that each categorical attribute be label-encoded
+        or one-hot-encoded?
+        \item Why did you choose the encoding?
+    \end{itemize}
+
+    \item (4 points) Are there missing values in the data? If so, what
+    proportion of the data is missing overall? What proportion of data is
+    missing per attribute (you may use a plot or table to summarize this
+    information)?
+
+    \item (7 points) Why is this data set interesting to you?
+
+    \item (6 points) Of the attributes used to describe this data, which do you
+    think are the most descriptive of the data and why (before doing any data
+    analysis)?
+
+\end{itemize}
+
+
+
+\section*{Part 2: Write Python code for data analysis}
+
+Use Python to write the following functions, without using any functions with
+the same purpose in sklearn, pandas, numpy, or any other library (though you may
+want to use these libraries to check your answers):
+
+\begin{itemize}
+
+    \item (5 points) A function that will compute the mean of a numerical,
+    multidimensional data set input as a 2-dimensional numpy array
+
+    \item (5 points) A function that will compute the estimated covariance
+    between two attributes that are input as one-dimensional numpy vectors
+
+    \item (5 points) A function that will compute the correlation between two
+    attributes that are input as two numpy vectors.
+
+    \item (5 points) A function that will normalize the attributes in a
+    two-dimensional numpy array using range normalization.
+
+    \item (5 points) A function that will normalize the attributes in a
+    two-dimensional numpy array using standard normalization.
+
+    \item (5 points) A function that will compute the covariance matrix of a
+    data set.
+
+    \item (5 points) A function that will label-encode a two-dimensional
+    categorical data array that is passed in as input.
+
+\end{itemize}
+
+\section*{Part 3: Analyze the data with your code and write up the results}
+
+Use your code from Part 2 to answer the following questions in a well-written
+paragraph, and create the following plots from the numerical portion of the
+data. Use your functions to compute the multi-variate mean and covariance matrix
+of the \textbf{numerical portion} of your data set. \textbf{Before answering the
+questions}:
+
+\begin{itemize}
+
+    \item (5 points) Convert all categorical attributes using label encoding or
+    one-hot-encoding
+
+    \item (2 points) If your data has missing values, fill in those values with
+    the attribute mean.
+
+\end{itemize}
+
+\noindent Questions to answer:
+\begin{itemize}
+
+    \item (2 points) What is the multivariate mean of the numerical data matrix
+    (where categorical data have been converted to numerical values)?
+
+    \item (4 points) What is the covariance matrix of the numerical data matrix
+    (where categorical data have been converted to numerical values)?
+
+    \item (5 points) Choose 5 pairs of attributes that you think could be
+    related. Create scatter plots of all 5 pairs and include these in your
+    report, along with a description and analysis that summarizes why these
+    pairs of attributes might be related, and how the scatter plots do or do not
+    support this intuition.
+
+    \item (3 points) Which range-normalized numerical attributes have the
+    greatest estimated covariance? What is their estimated covariance? Create a
+    scatter plot of these range-normalized attributes.
+
+    \item (3 points) Which Z-score-normalized numerical attributes have the
+    greatest correlation? What is their correlation? Create a scatter plot of
+    these Z-score-normalized attributes.
+
+    \item (3 points) Which Z-score-normalized numerical attributes have the
+    smallest correlation? What is their correlation? Create a scatter plot of
+    these Z-score-normalized attributes.
+
+    \item (3 points) How many pairs of features have correlation greater than or
+    equal to 0.5?
+
+    \item (3 points) How many pairs of features have negative estimated
+    covariance?
+
+    \item (2 points) What is the total variance of the data?
+
+    \item (2 points) What is the total variance of the data, restricted to the
+    five features that have the greatest estimated variance?
+
+\end{itemize}
+
+\section*{Tips and Acknowledgements}
+
+Make sure to submit your answer as a PDF on Gradscope and Brightspace. Make sure
+to show your work. Include any code snippets you used to generate an answer,
+using comments in the code to clearly indicate which problem corresponds to
+which code.
+
+{\bf Acknowledgements:} Project adapted from assignments of Veronika
+Strnadova-Neeley.
+
+\end{document}
