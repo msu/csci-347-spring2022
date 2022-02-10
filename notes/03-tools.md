@@ -1,4 +1,4 @@
-# Week 3a: Tools
+# Week 3: Tools
 
 This week we get down to coding.
 
