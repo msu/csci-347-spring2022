@@ -26,7 +26,7 @@ Optional Readings Key:
 | 01/25 | [Linear Algebra review](./notes/02b-linAlg.pdf)       |                                           | DM - chapter 1                |
 | 02/01 | [Tools](./notes/03-tools.md)                          | quiz 1 & quiz 2 (see D2L)                 |                               |
 | 02/03 | [Tools and Data wrangling](./notes/03-tools.md)       | [hw 1](hw/01.pdf) [sol](hw/01-sol.pdf)    |                               |
-| 02/08 | [Data Viz](./notes/04-viz.ipynb)                      | quiz 3 (see D2L)                          |                               |
+| 02/08 | [Data Viz](./notes/04a-viz.ipynb)                     | quiz 3 (see D2L)                          |                               |
 | 02/10 |                                                       |                                           |                               |
 | 02/15 |                                                       |                                           |                               |
 | 02/17 |                                                       | [hw 2](hw/02.pdf)                         |                               |
