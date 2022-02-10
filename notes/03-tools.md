@@ -88,8 +88,8 @@ And another value
     D[4, 2]
 
 
-We can do tons of [slicing and dicing](see
-https://numpy.org/doc/stable/user/quickstart.html#indexing-slicing-and-iterating)
+We can do tons of
+[slicing and dicing (_**See User Docs**_)](https://numpy.org/doc/stable/user/quickstart.html#indexing-slicing-and-iterating)
 but today we will just do some basics. Let's get the 0th column
 
     X0 = D[:, 0]
@@ -121,9 +121,8 @@ So, let's normalize our vector.  That is, make our vector length 1 (in the
     normalized_X0 = X0 / two_norm_of_X0
 
 The above code is an example of what numpy (and now other libraries in the
-python world call)
-(broadcasting)[https://numpy.org/doc/stable/user/basics.broadcasting.html].  The
-idea behind broadcasting is that the system "stretches" objects to higher
+python world call) ([broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)).
+The idea behind broadcasting is that the system "stretches" objects to higher
 dimensional objects so that operations can occur in a meaningful way.
 
 The numpy docs have a nice [visualisation of broadcasting a number to a vector](
@@ -321,8 +320,7 @@ import numpy
     np.random.random((3,2))
 
 Great!  The carpentries is working on a really good tutorial for working with
-environments in conda. You can see it as it evolves at the Carpentries
-Incubaror](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/04-sharing-environments/index.html).
+environments in conda. You can see it as it evolves at the [Carpentries Incubaror](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/04-sharing-environments/index.html).
 
 
 ## Pandas
@@ -332,9 +330,7 @@ implementing our primitive, but, often we are not given data as a matrix, but we
 have to do some work to get it to that format.  Perhaps a format that is closer
 to what we will see in practice is data in a csv.
 
-For example, consider the first few lines of data about the titanic [from the
-pandas
-documentation](https://raw.githubusercontent.com/pandas-dev/pandas/main/doc/data/titanic.csv)
+For example, consider the first few lines of data about the titanic [from the pandas documentation](https://raw.githubusercontent.com/pandas-dev/pandas/main/doc/data/titanic.csv)
 
     PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
     1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
@@ -429,8 +425,7 @@ This is probably one of the coolest and most helpful ideas that you can learn
 for easily getting subsets of data from a dataframe.   And it doesn't stop
 there, you can create some pretty complex query criterion.  In fact, for
 those that know SQL, many of the major relational algebra operations are
-implemented in the pandas api (See Comparison with SQL for
-more)[https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html].
+implemented in the pandas api [See Comparison with SQL for more](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html).
 
 One other thing to note, sometimes, you just want a few entries of the data for
 playing around, you can use
