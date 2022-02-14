@@ -48,24 +48,31 @@ Upon completion of this course, students will be able to:
 
 ## Expectations
 
+*Collaboration policy updated for clarity on 2022-02-14*
+
 **Meeting Time:** Tue, Thurs 15:05-16:20, 008 Romney Hall
 
-**Quizzes:** We will have weekly quizzes.  That is, there will be a quiz posted
-on or before Tue. Students are encouraged to complete the quiz after lecture on
-Thurs (but the quiz will be due before class on Tue)
+**Quizzes:** Must be completed individually.  We will have weekly quizzes.  That
+is, there will be a quiz posted on or before Tue. Students are encouraged to
+complete the quiz after lecture on Thurs (but the quiz will be due before class
+on Tue)
 
-**Homework:** All homework is to be completed individually, although online
-collaboration and cooperation with classmates is encouraged. Students are
-encouraged to use the course Discord to ask homework-related questions. Homework
-should be turned in on Gradescope and Brightspace.
+**Homework:** Can collaborate but you must submit your own writeup and
+acknowledge your collaborators. Students are encouraged to use the course
+Discord to ask homework-related questions. Homework should be turned in on
+Gradescope and Brightspace.
+
+**Projects:** Collaboration STRONGLY encouraged and you can submit one writeup
+for the group.  A total of three projects will constitute the project grade.
 
 **Exam:** There will be one in class exam on **TODO**.
 
-**Projects:**  A total of three projects will constitute the project grade.
-Projects can be completed either individually or with a partner.
+**Final Project:** Collaboration STRONGLY encouraged and you can submit one
+writeup for the group.
 
-**Final Project:** The final project can be completed either individually or
-with a partner.
+**Note:** Generally, for all projects, collaboration is required, however, I
+feel that for some, mandatory collaboration could create barriers and have
+updated them to be STRONGLY encouraged.
 
 ## Grading
 
