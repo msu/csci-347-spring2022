@@ -29,7 +29,7 @@ Optional Readings Key:
 | 02/08 | [Data Viz](./notes/04a-viz.ipynb)                     | quiz 3 (see D2L)                          |                               |
 | 02/10 | [Cat Vars](./notes/04b-cat.pdf)                       |                                           |                               |
 | 02/15 | [Missing Vals](./notes/05a-missing_vals.ipynb)        |                                           |                               |
-| 02/17 |                                                       | [hw 2](hw/02.pdf)                         |                               |
+| 02/17 | [Graph Centrality](./notes/05b-centrality.pdf)        | [hw 2](hw/02.pdf)                         |                               |
 | 02/22 |                                                       |                                           |                               |
 | 02/24 |                                                       | [proj](proj/01.pdf)                       |                               |
 
