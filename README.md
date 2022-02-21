@@ -30,7 +30,7 @@ Optional Readings Key:
 | 02/10 | [Cat Vars](./notes/04b-cat.pdf)                       |                                           |                               |
 | 02/15 | [Missing Vals](./notes/05a-missing_vals.ipynb)        |                                           |                               |
 | 02/17 | [Graph Centrality](./notes/05b-centrality.pdf)        | [hw 2](hw/02.pdf)                         |                               |
-| 02/22 |                                                       |                                           |                               |
+| 02/22 |                                                       | quiz 4 (see D2L)                          |                               |
 | 02/24 |                                                       | [proj](proj/01.pdf)                       |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
