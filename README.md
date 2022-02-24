@@ -31,7 +31,7 @@ Optional Readings Key:
 | 02/15 | [Missing Vals](./notes/05a-missing_vals.ipynb)        |                                           |                               |
 | 02/17 | [Graph Centrality](./notes/05b-centrality.pdf)        | [hw 2](hw/02.pdf)                         | DM - chapter 4                |
 | 02/22 | [Prestige](./notes/06a-prestige.pdf)                  |                                           | DM - chapter 4                |
-| 02/24 |                                                       | [proj](proj/01.pdf) quiz 4 (see D2L)      | DM - chapter 4                |
+| 02/24 | [Clust Coeff](./notes/06b-clustcoeff-clean.pdf)       | [proj](proj/01.pdf) quiz 4 (see D2L)      | DM - chapter 4                |
 | 03/01 |                                                       | quiz 5 (see D2L)                          |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
