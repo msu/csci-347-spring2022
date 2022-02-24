@@ -29,9 +29,10 @@ Optional Readings Key:
 | 02/08 | [Data Viz](./notes/04a-viz.ipynb)                     | quiz 3 (see D2L)                          |                               |
 | 02/10 | [Cat Vars](./notes/04b-cat.pdf)                       |                                           |                               |
 | 02/15 | [Missing Vals](./notes/05a-missing_vals.ipynb)        |                                           |                               |
-| 02/17 | [Graph Centrality](./notes/05b-centrality.pdf)        | [hw 2](hw/02.pdf)                         |                               |
-| 02/22 | [Prestige](./notes/06a-prestige.pdf)                  |                                           |                               |
-| 02/24 |                                                       | [proj](proj/01.pdf) quiz 4 (see D2L)      |                               |
+| 02/17 | [Graph Centrality](./notes/05b-centrality.pdf)        | [hw 2](hw/02.pdf)                         | DM - chapter 4                |
+| 02/22 | [Prestige](./notes/06a-prestige.pdf)                  |                                           | DM - chapter 4                |
+| 02/24 |                                                       | [proj](proj/01.pdf) quiz 4 (see D2L)      | DM - chapter 4                |
+| 03/01 |                                                       | quiz 5 (see D2L)                          |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.
@@ -40,7 +41,6 @@ the current plan.
 
 | Week     | Topics                                        | Due
 |----------|-----------------------------------------------|---------------------------------------
-| 6: 02/21 | Graph data                                    | quiz, proj 1: eda
 | 7: 02/28 | Dim Reduction                                 | quiz, homework
 | 8: 03/07 | Dim Reduction                                 | quiz, proj 2: graph data
 | -: 03/14 | SPRING BREAK (NO CLASS)                       |
