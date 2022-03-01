@@ -31,8 +31,15 @@ Optional Readings Key:
 | 02/15 | [Missing Vals](./notes/05a-missing_vals.ipynb)        |                                           |                               |
 | 02/17 | [Graph Centrality](./notes/05b-centrality.pdf)        | [hw 2](hw/02.pdf)                         | DM - chapter 4                |
 | 02/22 | [Prestige](./notes/06a-prestige.pdf)                  |                                           | DM - chapter 4                |
-| 02/24 | [Clust Coeff](./notes/06b-clustcoeff-clean.pdf)       | [proj](proj/01.pdf) quiz 4 (see D2L)      | DM - chapter 4                |
-| 03/01 |                                                       | quiz 5 (see D2L)                          |                               |
+| 02/24 | [Clust Coeff](./notes/06b-clustcoeff-clean.pdf)       | [proj 1](proj/01.pdf) quiz 4 (see D2L)    | DM - chapter 4                |
+| 03/01 | [NetworkX, Homework 3, Proj 2]                        | quiz 5 (see D2L)                          |                               |
+| 03/03 |                                                       |                                           |                               |
+| 03/08 |                                                       | [TODO]quiz 6 (see D2L)                    |                               |
+| 03/10 |                                                       | [hw 3](hw/03.pdf)                         |                               |
+| 03/15 | SPRING BREAK (NO CLASS)                               |                                           |                               |
+| 03/17 | SPRING BREAK (NO CLASS)                               |                                           |                               |
+| 03/22 |                                                       |                                           |                               |
+| 03/24 |                                                       | [proj 2](proj/02.pdf)                     |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.
@@ -41,15 +48,14 @@ the current plan.
 
 | Week     | Topics                                        | Due
 |----------|-----------------------------------------------|---------------------------------------
-| 7: 02/28 | Dim Reduction                                 | quiz, homework
-| 8: 03/07 | Dim Reduction                                 | quiz, proj 2: graph data
+| 8: 03/07 | Dim Reduction                                 | quiz, homework
 | -: 03/14 | SPRING BREAK (NO CLASS)                       |
-| 9: 03/21 | Clustering                                    | quiz, homework
+| 9: 03/21 | Dim Reduction                                 | quiz, proj 2: graph data
 |10: 03/28 | Clustering                                    | quiz, homework
-|11: 04/04 | Classification                                | quiz, homework
-|12: 04/11 | Adv topic (TBD)                               | quiz, proj 3: dim reduction & clustering
-|13: 04/18 | Adv topic (TBD)                               | quiz, exam
-|14: 04/25 | Adv topic (TBD)                               | quiz,
+|11: 04/04 | Clustering                                    | quiz, homework
+|12: 04/11 | Classification                                | quiz, homework
+|13: 04/18 | Adv topic (TBD)                               | quiz, proj 3: dim reduction & clustering
+|14: 04/25 | Adv topic (TBD)                               | quiz, exam
 |15: 05/02 | Ethics                                        | quiz, homework
 |16: 05/09 | Final Project Presentations                   | final project
 
