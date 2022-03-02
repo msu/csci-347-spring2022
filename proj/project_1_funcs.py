@@ -5,11 +5,11 @@ def multivar_mean(D):
 	n_row = D.shape[0]
 	n_col = D.shape[1]
 
-	# initialize an empty numpy array with appropriate number of entries	
+	# initialize an empty numpy array with appropriate number of entries
 	multivariate_mean = np.empty(n_col)
 
 	# find the multivariate mean, by iterating through
-	#	each row of each column, summing entries, 
+	#	each row of each column, summing entries,
 	#	and then dividing by the number of rows
 	for j in range(n_col):
 		sum_col_j = 0
@@ -17,32 +17,32 @@ def multivar_mean(D):
 			sum_col_j += D[i][j];
 		mean_col_j = sum_col_j/n_row;
 		multivariate_mean[j] = mean_col_j;
-	
+
 	return multivariate_mean;
 
 def sample_covariance(a,b):
 	# find the dimensionality of a and b
 	dim = np.shape(a)[0]
-	
+
 	# if the arrays don't have the same size, return a NaN
 	if(dim != np.shape(b)[0]):
 		print('dimensions of inputs do not match');
 		return np.nan;
-	
+
 	# compute the sample covariance
 	mean_a = np.mean(a);
 	mean_b = np.mean(b);
-	
+
 	# initialize sum of products
 	sp = 0;
-	
-	# sum up squared values 
+
+	# sum up squared values
 	for i in range(dim):
 		sp += (a[i] - mean_a)*(b[i] - mean_b);
 
 	# divide by dim-1 to get the sample covariance
 	sample_cov = sp/(dim-1);
-	
+
 	return sample_cov;
 
 # sample correlation coefficient between two numpy vectors
@@ -80,7 +80,7 @@ def covariance_matrix(D):
 	for i in range(n_col):
 		for j in range(n_col):
 			cov_mtx[i,j] = sample_covariance(D[:,i],D[:,j])
-	return cov_mtx; 
+	return cov_mtx;
 
 def label_encode(D):
 	n_row = D.shape[0];
@@ -90,7 +90,7 @@ def label_encode(D):
 	for j in range(n_col):
 		unique_j, indices = np.unique(D[:,j], return_index=True);
 		for i in range(n_row):
-			label_encoded_D[i,j] = np.where(unique_j == D[i,j])[0]	
+			label_encoded_D[i,j] = np.where(unique_j == D[i,j])[0]
 
 	return label_encoded_D;
 
