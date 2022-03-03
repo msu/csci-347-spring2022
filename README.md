@@ -34,7 +34,7 @@ Optional Readings Key:
 | 02/24 | [Clust Coeff](./notes/06b-clustcoeff-clean.pdf)       | [proj 1](proj/01.pdf) quiz 4 (see D2L)    | DM - chapter 4                |
 | 03/01 | [NetworkX](./notes/07a-networkx.ipynb)                | quiz 5 (see D2L)                          |                               |
 | 03/03 |                                                       |                                           |                               |
-| 03/08 |                                                       | [TBD]quiz 6 (see D2L)                    |                               |
+| 03/08 |                                                       | quiz 6 (see D2L)                          |                               |
 | 03/10 |                                                       | [hw 3](hw/03.pdf)                         |                               |
 | 03/15 | SPRING BREAK (NO CLASS)                               |                                           |                               |
 | 03/17 | SPRING BREAK (NO CLASS)                               |                                           |                               |
