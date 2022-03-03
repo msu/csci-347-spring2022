@@ -31,9 +31,9 @@ Optional Readings Key:
 | 02/15 | [Missing Vals](./notes/05a-missing_vals.ipynb)        |                                           |                               |
 | 02/17 | [Graph Centrality](./notes/05b-centrality.pdf)        | [hw 2](hw/02.pdf)                         | DM - chapter 4                |
 | 02/22 | [Prestige](./notes/06a-prestige.pdf)                  |                                           | DM - chapter 4                |
-| 02/24 | [Clust Coeff](./notes/06b-clustcoeff-clean.pdf)       | [proj 1](proj/01.pdf) quiz 4 (see D2L)    | DM - chapter 4                |
+| 02/24 | [Clust Coeff](./notes/06b-clustcoeff.pdf)             | [proj 1](proj/01.pdf) quiz 4 (see D2L)    | DM - chapter 4                |
 | 03/01 | [NetworkX](./notes/07a-networkx.ipynb)                | quiz 5 (see D2L)                          |                               |
-| 03/03 |                                                       |                                           |                               |
+| 03/03 | [Dim Reduction - clean](./notes/07b-dimRedux-clean.pdf)|                                           |                               |
 | 03/08 |                                                       | quiz 6 (see D2L)                          |                               |
 | 03/10 |                                                       | [hw 3](hw/03.pdf)                         |                               |
 | 03/15 | SPRING BREAK (NO CLASS)                               |                                           |                               |
