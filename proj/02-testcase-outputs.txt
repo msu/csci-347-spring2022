@@ -1,0 +1,122 @@
+
+Test cases for number of vertices:
+
+Graph 0: number of vertices =  6
+Graph 1: number of vertices =  5
+Graph 2: number of vertices =  5
+Graph 3: number of vertices =  9
+Graph 4: number of vertices =  50
+Graph 5: number of vertices =  7
+Graph 6: number of vertices =  8
+Graph 7: number of vertices =  200
+Graph 8: number of vertices =  100
+
+Test cases for degree of a vertex:
+
+Graph 1: degree of node 2 =  2
+Graph 2: degree of node 2 =  3
+Graph 3: degree of node 2 =  3
+Graph 3: degree of node 3 =  4
+Graph 3: degree of node 6 =  3
+Graph 4: degree of node 25 =  2
+Graph 5: degree of node 4 =  6
+Graph 6: degree of node 3 =  2
+Graph 7: degree of node 27 =  10
+
+Test cases for clustering coefficient of a vertex:
+
+Graph 1: clustering coefficient of node 2 =  0.0
+Graph 2: clustering coefficient of node 4 =  0.3333333333333333
+Graph 3: clustering coefficient of node 3 =  0.3333333333333333
+Graph 4: clustering coefficient of node 5 =  0.0
+Graph 5: clustering coefficient of node 4 =  1.0
+Graph 6: clustering coefficient of node 1 =  0.0
+Graph 7: clustering coefficient of node 11 =  0.07142857142857142
+Graph 8: clustering coefficient of node 46 =  0.2857142857142857
+
+Test cases for betweenness centrality of a vertex:
+
+graph 0: betweenness centrality of node  1  =  0.0
+graph 0: betweenness centrality of node  2  =  4.5
+graph 0: betweenness centrality of node  3  =  2.0
+graph 0: betweenness centrality of node  4  =  2.0
+graph 0: betweenness centrality of node  5  =  4.5
+graph 0: betweenness centrality of node  6  =  0.0
+
+graph 1: betweenness centrality of node  1  =  1.0
+graph 1: betweenness centrality of node  2  =  1.0
+graph 1: betweenness centrality of node  3  =  1.0
+graph 1: betweenness centrality of node  4  =  1.0
+graph 1: betweenness centrality of node  5  =  1.0
+
+graph 6: betweenness centrality of node  0  =  4.5
+graph 6: betweenness centrality of node  1  =  4.5
+graph 6: betweenness centrality of node  2  =  4.5
+graph 6: betweenness centrality of node  3  =  4.5
+graph 6: betweenness centrality of node  4  =  4.5
+graph 6: betweenness centrality of node  5  =  4.5
+graph 6: betweenness centrality of node  6  =  4.5
+graph 6: betweenness centrality of node  7  =  4.5
+
+graph 7: betweenness centrality of node 23 =  873.7604441701953
+
+graph 8: betweenness centrality of node 39 =  86.18112583907725
+
+Test cases for adjacency matrix:
+
+graph 0: adjacency matrix:
+
+[[0. 1. 0. 0. 0. 0.]
+ [1. 0. 1. 1. 0. 0.]
+ [0. 1. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 1. 0.]
+ [0. 0. 1. 1. 0. 1.]
+ [0. 0. 0. 0. 1. 0.]]
+
+graph 1: adjacency matrix:
+
+[[0. 1. 0. 0. 1.]
+ [1. 0. 1. 0. 0.]
+ [0. 1. 0. 1. 0.]
+ [0. 0. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+
+graph 2: adjacency matrix:
+
+[[0. 1. 1. 0. 1.]
+ [1. 0. 1. 1. 0.]
+ [1. 1. 0. 1. 0.]
+ [0. 1. 1. 0. 1.]
+ [1. 0. 0. 1. 0.]]
+
+graph 5: adjacency matrix:
+
+[[0. 1. 1. 1. 1. 1. 1.]
+ [1. 0. 1. 1. 1. 1. 1.]
+ [1. 1. 0. 1. 1. 1. 1.]
+ [1. 1. 1. 0. 1. 1. 1.]
+ [1. 1. 1. 1. 0. 1. 1.]
+ [1. 1. 1. 1. 1. 0. 1.]
+ [1. 1. 1. 1. 1. 1. 0.]]
+
+graph 6: adjacency matrix:
+
+[[0. 1. 0. 0. 0. 0. 0. 1.]
+ [1. 0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 1. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 1. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 1. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 1. 0.]
+ [0. 0. 0. 0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 0. 0. 1. 0.]]
+
+Test cases for average shortest path length:
+
+average shortest path length of graph 0:  1.8666666666666667
+average shortest path length of graph 2:  1.3
+average shortest path length of graph 3:  2.25
+average shortest path length of graph 4:  17.0
+average shortest path length of graph 5:  1.0
+average shortest path length of graph 6:  2.2857142857142856
+average shortest path length of graph 7:  2.6090452261306534
+average shortest path length of graph 8:  2.0785858585858588
