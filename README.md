@@ -33,12 +33,12 @@ Optional Readings Key:
 | 02/22 | [Prestige](./notes/06a-prestige.pdf)                  |                                           | DM - chapter 4                |
 | 02/24 | [Clust Coeff](./notes/06b-clustcoeff.pdf)             | [proj 1](proj/01.pdf) quiz 4 (see D2L)    | DM - chapter 4                |
 | 03/01 | [NetworkX](./notes/07a-networkx.ipynb)                | quiz 5 (see D2L)                          |                               |
-| 03/03 | [Dim Reduction - clean](./notes/07b-dimRedux-clean.pdf)|                                           |                               |
-| 03/08 |                                                       | quiz 6 (see D2L)                          |                               |
-| 03/10 |                                                       | [hw 3](hw/03.pdf)                         |                               |
+| 03/03 | [Dim Reduction](./notes/07b-dimRedux.pdf)             |                                           | DM - chapter 7                |
+| 03/08 | [Lin Alg 4 PCA](./notes/08a-la4pca.pdf)               | quiz 6 (see D2L)                          | DM - chapter 7                |
+| 03/10 | [PCA](./notes/08b-pca.pdf)                            | [hw 3](hw/03.pdf)                         | DM - chapter 7                |
 | 03/15 | SPRING BREAK (NO CLASS)                               |                                           |                               |
 | 03/17 | SPRING BREAK (NO CLASS)                               |                                           |                               |
-| 03/22 |                                                       |                                           |                               |
+| 03/22 |                                                       | quiz 7 (see D2L)                          |                               |
 | 03/24 |                                                       | [proj 2](proj/02.pdf)                     |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
@@ -48,8 +48,6 @@ the current plan.
 
 | Week     | Topics                                        | Due
 |----------|-----------------------------------------------|---------------------------------------
-| 8: 03/07 | Dim Reduction                                 | quiz, homework
-| -: 03/14 | SPRING BREAK (NO CLASS)                       |
 | 9: 03/21 | Dim Reduction                                 | quiz, proj 2: graph data
 |10: 03/28 | Clustering                                    | quiz, homework
 |11: 04/04 | Clustering                                    | quiz, homework
