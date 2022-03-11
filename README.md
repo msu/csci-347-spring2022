@@ -41,7 +41,7 @@ Optional Readings Key:
 | 03/22 |                                                       | quiz 7 (see D2L)                          |                               |
 | 03/24 |                                                       | [proj 2](proj/02.pdf)                     |                               |
 | 03/29 |                                                       |                                           |                               |
-| 03/31 |                                                       | [hw 4](proj/04.pdf)                       |                               |
+| 03/31 |                                                       | [hw 4](hw/04.pdf)                         |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.
