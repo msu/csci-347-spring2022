@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+
+% set these commands
+\newcommand{\course}{CSCI 347}
+\newcommand{\proj}{Homework 04}
+
+\usepackage{macros}
+
+
+\begin{document}
+
+{ ~\\
+    \course \\ 
+    \proj \\ 
+}
+
+Show your work. Include any code snippets you used to generate an answer, using
+comments in the code to clearly indicate which problem corresponds to which code
+
+\begin{enumerate}
+
+    \item (2 points) Consider matrix $A$ and vector $v$.
+    Compute the matrix-vector product $Av$.
+    $$
+        A = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix},
+        v = \begin{pmatrix}-1 & 1\end{pmatrix}
+    $$
+
+    \item Consider matrix $A$ and data set $D$:
+    $$
+        A = \begin{pmatrix}
+            \frac{\sqrt{3}}{2} & -\frac{1}{2} \\ 
+            \frac{1}{2} & \frac{\sqrt{3}}{2}
+        \end{pmatrix},
+        D = \begin{pmatrix}
+            1  &  1.5 \\
+            1  &  2 \\
+            3  &  4 \\
+            -1 &  -1 \\
+            -1 &  1 \\
+            1  & -2 \\
+            2  &  2 \\
+            2  & 3
+        \end{pmatrix}
+    $$
+
+    \begin{enumerate}
+
+        \item (2 points) Let $X_1$ and $X_2$ be the first and second attributes
+        of the data, respectively.  Use Python to create a scatter plot of the
+        data, where the $x$-axis is $X_1$ and the $y$-axis is~$X_2$.
+
+        \item (4 points) Treating each row as a 2-dimensional vector, apply the
+        linear transformation $A$ to each row.  In other words, let $x_i$ be the
+        $i$-th row of $D$. For each $x_i$, find the matrix-vector product $A
+        x_i$.  For example, $x_2 = \begin{pmatrix} 1 \\  2 \end{pmatrix}$.
+
+        \item (3 points) Use Python to create a plot showing both the original
+        data and the transformed data, with the $x$-axis still corresponding to
+        $X_1$ and the y-axis corresponding to $X_2$. Use different colors and
+        markers to differentiate between the original and transformed data. That
+        is, each transformed data point in the plot should be one matrix-vector
+        product $Ax_i$, which is a 2-dimensional vector. Each original point in
+        the plot should have the same coordinates as it did in part 2.1.
+
+        \item (1 point) Write down the multi-dimensional mean of the data.
+        (Remember that this should be a 2-dimensional vector)
+
+        \item (2 points) Mean-center the data. Write down the mean-centered data
+        matrix.
+
+        \item (2 points] Use Python to create a scatter plot showing both the
+        original data and the mean-centered data, where the $x$-axis is $X_1$
+        and the $y$-axis is $X_2$. Use different colors and markers to
+        differentiate between the original and mean-centered data.
+
+        \item (3 points) Write down the covariance matrix of the data matrix
+        $D$. Use estimated covariance.
+
+        \item (3 points) Write down the covariance matrix of the centered data
+        matrix $Z$. Use estimated covariance.
+
+        \item (3 points) Write down the covariance matrix of the data after
+        applying standard normalization.
+
+    \end{enumerate}
+
+\end{enumerate}
+
+{\bf Acknowledgements:} Homework problems adapted from assignments of
+Veronika Strnadova-Neeley.
+
+\end{document}
