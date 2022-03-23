@@ -38,9 +38,9 @@ Optional Readings Key:
 | 03/10 | [PCA](./notes/08b-pca.pdf)                            | [hw 3](hw/03.pdf)                         | DM - chapter 7                |
 | 03/15 | SPRING BREAK (NO CLASS)                               |                                           |                               |
 | 03/17 | SPRING BREAK (NO CLASS)                               |                                           |                               |
-| 03/22 |                                                       | quiz 7 (see D2L)                          |                               |
-| 03/24 |                                                       | [proj 2](proj/02.pdf)                     |                               |
-| 03/29 |                                                       |                                           |                               |
+| 03/22 | [PCA code](./notes/09-pca.ipynb)                      | quiz 7 (see D2L)                          | DM - chapter 7                |
+| 03/24 | [PCA code cont](./notes/09-pca.ipynb)                 | [proj 2](proj/02.pdf)                     | DM - chapter 7                |
+| 03/29 |                                                       | quiz 8 (see D2L)                          |                               |
 | 03/31 |                                                       | [hw 4](hw/04.pdf)                         |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
@@ -50,7 +50,6 @@ the current plan.
 
 | Week     | Topics                                        | Due
 |----------|-----------------------------------------------|---------------------------------------
-| 9: 03/21 | Dim Reduction                                 | quiz, proj 2: graph data
 |10: 03/28 | Clustering                                    | quiz, homework
 |11: 04/04 | Clustering                                    | quiz, homework
 |12: 04/11 | Classification                                | quiz, homework
