@@ -42,6 +42,19 @@ Optional Readings Key:
 | 03/24 | [PCA code cont](./notes/09-pca.ipynb)                 | [proj 2](proj/02.pdf)                     | DM - chapter 7                |
 | 03/29 |                                                       | quiz 8 (see D2L)                          |                               |
 | 03/31 |                                                       | [hw 4](hw/04.pdf)                         |                               |
+| 04/05 |                                                       |                                           |                               |
+| 04/07 |                                                       |                                           |                               |
+| 04/12 |                                                       |                                           |                               |
+| 04/14 |                                                       | [proj 4.1](proj/04.pdf)                   |                               |
+| 04/19 |                                                       |                                           |                               |
+| 04/21 |                                                       |                                           |                               |
+| 04/26 |                                                       |                                           |                               |
+| 04/28 |                                                       |                                           |                               |
+| 05/03 |                                                       |                                           |                               |
+| 05/05 |                                                       |                                           |                               |
+| 05/03 |                                                       |                                           |                               |
+| 05/05 |                                                       |                                           |                               |
+| 05/10 | Meeting 14:00-15:50                                   | [proj 4.2-4](proj/04.pdf)                 |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.

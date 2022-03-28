@@ -1,0 +1,189 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+
+% set these commands
+\newcommand{\course}{CSCI 347}
+\newcommand{\proj}{Project 04: Final Project}
+
+\usepackage{macros}
+
+
+\begin{document}
+
+{ ~\\
+    \course \\ 
+    \proj \\ 
+}
+
+This project may be completed individually or a group of up three people. You
+may ask others for help, but the submitted work must be from the group. You may
+use online resources, but they must be cited.
+
+This project is much more open-ended than previous projects. You are encouraged
+to explore a data mining topic of interest. You may choose to dive deeper into a
+topic covered in class (for example, improvements/extensions of $k$-means), or
+explore a related topic that we did not have time to cover (for example,
+additional clustering or classification algorithms, advanced feature selection
+algorithms, non-linear dimensionality reduction algorithms, etc.). The learning
+objectives of this project are to:
+
+\begin{itemize}
+
+    \item Identify problems that can be solved or partially solved using data
+    mining techniques.
+
+    \item Apply appropriate data mining algorithms to a real-world data set
+    using the Python programming language.
+
+    \item Construct an end-to-end computational pipeline to solve a data mining
+    problem.
+
+    \item Explore a data mining application of interest
+
+\end{itemize}
+
+Keep in mind that we have limited time for this project. Some exploration may
+therefore need to be left for future work.
+
+\section*{Part 1: Plan (20 points)}
+
+{\bf NOTE THAT PART 1 IS DUE EARLIER THAN THE REST OF THE PROJECT.}
+\linebreak
+
+Find a problem that you are interested in that has an associated data set. You
+can browse the UCI Machine Learning Repository, the SNAP collection, Kaggle, or
+any other source of publicly available data. Think about how you might apply
+data mining to this problem. Write one paragraph that:
+
+\begin{itemize}
+
+    \item Summarizes the problem
+
+    \item Summarizes the data set.  For example, include how many instances and
+    attributes, how many categorical and numerical features, how many nodes and
+    edges if using graph data, etc.
+
+    \item Lists the data mining techniques you would like to use to help solve
+    this problem.
+
+    \item Describes what part of your proposed solution may need to be left for
+    future work if you run out of time.
+
+\end{itemize}
+
+The paragraph summarizing your proposed work must be turned in by the Part 1 due
+date. You are encouraged to visit the instructor or TA office hours to help
+develop your idea.
+
+
+\section*{Part 2: Implement (30 points)}
+
+Write code to analyze your data. This should include pre-processing such as
+missing value imputation and one-hot encoding, dimensionality reduction, and any
+data mining algorithms that you want to apply to your data.
+
+\section*{Part 3: Report (40 points)}
+
+Write up a report summarizing your findings. Summarize the methods you applied,
+from beginning to end, including pre-processing techniques, dimensionality
+reduction, clustering or classification, etc. Include answers to the following
+questions in your report:
+
+\begin{itemize}
+    \item What problem were you trying to solve or help solve?
+
+    \item Describe the data:
+    \begin{itemize}
+        \item How many instances?
+        \item How many attributes?
+        \item Any missing values?
+        \item Number of categorical and numeric attributes?
+    \end{itemize}
+
+    \item What pre-processing techniques did you apply and why? Make sure to
+    justify the use of each technique you used. For example label encoding
+    vs.~one-hot encoding.
+
+    \item What data mining techniques did you apply and why? Make sure to
+    justify the use of each technique you used. For example, why did you use
+    $k$-means instead of DBSCAN.
+
+    \item Include relevant visualizations and tables summarizing your data and
+    your findings. This may include:
+    \begin{itemize}
+
+        \item a table listing the number attributes, missing values, number of
+        classes, parameter settings, etc.
+
+        \item visualization of a large graph if you are working with graph data.
+
+        \item one or more visualizations of your data in two dimensions
+        (original dimensions or PCA dimensions).
+
+        \item for PCA, a plot of r vs. f(r).
+
+        \item for $k$-means, a plot of the objective function for various $k$'s.
+
+        \item for DBSCAN, a plot or table of the precision at various
+        parameters.
+
+        \item other visualizations or tables that you think will effectively
+        communicate your ideas.
+
+    \end{itemize}
+
+    \item What did you learn through your analysis?
+
+    \item Was anything about your results surprising or unexpected?
+
+    \item How will your work help with understanding the problem you set out to
+    solve?
+
+    \item What else would you do if you had more time?
+\end{itemize}
+
+\section*{Part 4: Present (10 points)}
+
+Make a 5-10 minute video presentation summarizing your findings. You may use
+whatever video editing technology you prefer. (The MSU supported tool is
+TechSmith Relay.  See the
+\href{https://ato.montana.edu/accessforall/tutorials/techsmith/5-steps-to-record-techsmith-video.html}{UIT
+tutorial} for more info.) The video should:
+
+\begin{itemize}
+
+    \item State your name.
+
+    \item Summarize your project, including:
+    \begin{itemize}
+
+        \item the problem you are interested in.
+
+        \item what data mining techniques you used to analyze data related to
+        the problem.
+
+    \end{itemize}
+
+    \item Your key findings and any surprising results.
+
+    \item What else you would work on if you had more time.
+
+\end{itemize}
+
+The goal is to summarize the work you have done and what you have learned from
+the process.
+\linebreak
+
+\noindent
+{\bf Note: any presentation that exceeds 10 minutes or does not reach 5
+minutes will be docked 1 point per minute.}
+
+\section*{Tips and Acknowledgements}
+
+Make sure to submit your code, report, and video on Brightspace. The report
+should also be turned in on Gradescope.
+
+{\bf Acknowledgements:} Project adapted from assignments of Veronika
+Strnadova-Neeley.
+
+\end{document}
