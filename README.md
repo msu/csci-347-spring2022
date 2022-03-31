@@ -54,7 +54,7 @@ Optional Readings Key:
 | 05/05 |                                                       |                                           |                               |
 | 05/03 |                                                       |                                           |                               |
 | 05/05 |                                                       |                                           |                               |
-| 05/10 | Meeting 14:00-15:50                                   | [proj 4.2-4](proj/04.pdf)                 |                               |
+| 05/12 | Meeting 14:00-15:50                                   | [proj 4.2-4](proj/04.pdf)                 |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
 the current plan.
