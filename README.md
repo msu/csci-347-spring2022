@@ -41,9 +41,9 @@ Optional Readings Key:
 | 03/22 | [PCA code](./notes/09-pca.ipynb)                      | quiz 7 (see D2L)                          | DM - chapter 7                |
 | 03/24 | [PCA code cont](./notes/09-pca.ipynb)                 | [proj 2](proj/02.pdf)                     | DM - chapter 7                |
 | 03/29 | [Clustering](./notes/10a-clustering.pdf),K-Means](./notes/10b-kmeans.pdf) | quiz 8 (see D2L)      | DM - chapter 13               |
-| 03/31 | [DBSCAN]()                                            | [hw 4](hw/04.pdf)                         | DM - chapter 15               |
-| 04/05 |                                                       |                                           |                               |
-| 04/07 |                                                       | quiz 9 (see D2L)                          |                               |
+| 03/31 | [DBSCAN - clean](./notes/10c-dbscan-clean.pdf)        | [hw 4](hw/04.pdf)                         | DM - chapter 15               |
+| 04/05 |                                                       | quiz 9 (see D2L)                          |                               |
+| 04/07 |                                                       |                                           |                               |
 | 04/12 |                                                       |                                           |                               |
 | 04/14 |                                                       | [proj 4.1](proj/04.pdf)                   |                               |
 | 04/19 |                                                       | [proj 3](proj/03.pdf)                     |                               |
