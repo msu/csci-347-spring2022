@@ -44,12 +44,12 @@ Optional Readings Key:
 | 03/31 | [DBSCAN - clean](./notes/10c-dbscan-clean.pdf)        | [hw 4](hw/04.pdf)                         | DM - chapter 15               |
 | 04/05 |                                                       | quiz 9 (see D2L)                          |                               |
 | 04/07 |                                                       |                                           |                               |
-| 04/12 |                                                       |                                           |                               |
+| 04/12 |                                                       | [hw 5](hw/05.pdf)                         |                               |
 | 04/14 |                                                       | [proj 4.1](proj/04.pdf)                   |                               |
 | 04/19 |                                                       | [proj 3](proj/03.pdf)                     |                               |
 | 04/21 |                                                       |                                           |                               |
 | 04/26 |                                                       |                                           |                               |
-| 04/28 |                                                       |                                           |                               |
+| 04/28 | Exam                                                  |                                           |                               |
 | 05/03 |                                                       |                                           |                               |
 | 05/05 |                                                       |                                           |                               |
 | 05/03 |                                                       |                                           |                               |
@@ -63,7 +63,6 @@ the current plan.
 
 | Week     | Topics                                        | Due
 |----------|-----------------------------------------------|---------------------------------------
-|10: 03/28 | Clustering                                    | quiz, homework
 |11: 04/04 | Clustering                                    | quiz, homework
 |12: 04/11 | Classification                                | quiz, homework
 |13: 04/18 | Adv topic (TBD)                               | quiz, proj 3: dim reduction & clustering

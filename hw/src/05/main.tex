@@ -1,0 +1,139 @@
+\documentclass[11pt]{article}
+
+% set these commands
+\newcommand{\course}{CSCI 347}
+\newcommand{\proj}{Homework 05}
+
+\usepackage{macros}
+
+
+\begin{document}
+
+{ ~\\
+    \course \\ 
+    \proj \\ 
+}
+
+Show your work. Include any code snippets you used to generate an answer, using
+comments in the code to clearly indicate which problem corresponds to which code
+
+\begin{enumerate}
+
+    \item (2 points) In Python, generate a (2-dimensional multivariate Gaussian)
+    data matrix $D$ using the following code:
+
+    \begin{verbatim}
+        mu = np.array([0,0])
+        Sigma = np.array([[1,0], [0, 1]])
+        X1, X2 = np.random.multivariate_normal(mu, Sigma, 1000).T
+        D = np.array([X1, X2]).T
+    \end{verbatim}
+
+    Create a scatter plot of the data, with the $x$-axis corresponding to the
+    first attribute (column) in $D$, and the $y$-axis corresponding to the
+    second attribute (column) in $D$.
+
+    \item (7 points) Using the scaling matrix $S$ and rotation matrix $R$ below
+    to transform the data $D$ from Question 1, by multiplying each data instance
+    (row) $x_i$ by $RS$. Let $D_{RS}$ be the matrix of
+    the transformed data. That is, each 2-dimensional row vector $x_i$
+    in $D$ should be transformed into a 2-dimensional vector $RSx_i$ in $D_{RS}$.
+
+    \begin{enumerate}
+
+        \item (4 points) Plot the transformed data $D_{RS}$ in the same figure
+        as the original data $D$, using different colors to differentiate
+        between the original and transformed data.
+
+        $$
+            R = \begin{pmatrix}
+                \cos(\pi/4) & -\sin(\pi/4) \\
+                \sin(\pi/4) & \cos(\pi/4)
+            \end{pmatrix},
+            \qquad
+            S = \begin{pmatrix}
+                5 & 0 \\
+                0 & 2
+            \end{pmatrix}
+        $$
+
+        \item (2 points) Write down the covariance matrix of the transformed
+        data $D_{RS}$.
+
+        \item (1 point) What is the total variance of the transformed data
+        $D_{RS}$.
+
+    \end{enumerate}
+
+    \item (8 points) Use sklearn’s PCA function to transform the data matrix
+    $D_{RS}$ from Question 2 to a 2-dimensional space where the coordinate axes
+    are the principal components.
+
+    \begin{enumerate}
+
+        \item (4points) Plot the PCA-transformed data, with the $x$-axis
+        corresponding to the first principal component and the $y$-axis
+        corresponding to the second principal component.
+
+        \item (2 points) What is the estimated covariance matrix of the
+        PCA-transformed data?
+
+        \item (2 points) What is the fraction of the total variance captured in
+        the direction of the first principal component? What is the fraction of
+        the total variance captured in the direction of the second principal
+        component?
+
+    \end{enumerate}
+
+    \item (18 points) Load the Boston data set into Python using sklearn's
+    datasets package. Use sklearn's PCA function to reduce the dimensionality of
+    the data to 2 dimensions.
+
+    \begin{enumerate}
+
+        \item (5 points) First, standard-normalize the data. Then, create a
+        scatter plot of the 2-dimensional, PCA-transformed normalized Boston
+        data, with the $x$-axis corresponding to the first principal component
+        and the $y$-axis corresponding to the second principal component.
+        \label{item:4.1}
+
+        \item (3 points) Create a plot of the fraction of the total variance
+        explained by the first $r$ components for $r = 1, 2, \ldots, 13$.
+
+        \item (2 points)
+        \begin{enumerate}
+
+            \item (1 point) If we want to capture at least 90\% of the variance
+            of the normalized Boston data, how many principal components (i.e.,
+            what dimensionality) should we use?
+
+            \item (1 point) If we use two principal components of the normalized
+            Boston data, how much (what fraction or percentage) of the total
+            variance do we capture?
+
+        \end{enumerate}
+
+        \item (4 points) Use scikit-learn's implementation of $k$-means to find
+        2 clusters in the two-dimensional, PCA-transformed normalized Boston
+        data set (the input to $k$-means should be the data that was plotted in
+        part \ref{item:4.1}). Plot the 2-dimensional data with colors corresponding to
+        predicted cluster membership for each point. On the same plot, also plot
+        the two means found by the $k$-means algorithm in a different color than
+        the colors used for the data.
+
+        \item (4 points) Use scikit-learn's implementation of DBSCAN to find
+        clusters in the two-dimensional, PCA-transformed normalized Boston data
+        set (the input to DBSCAN should be the data that was plotted in part
+        \label{item:4.1}). Plot the 2-dimensional data with colors corresponding
+        to predicted cluster membership for each point. Noise points should be
+        colored differently than any of the clusters. How many clusters were
+        found by DBSCAN?
+
+    \end{enumerate}
+
+\end{enumerate}
+
+{\bf Acknowledgements:} Homework problems adapted from assignments of
+Veronika Strnadova-Neeley.
+
+\end{document}
