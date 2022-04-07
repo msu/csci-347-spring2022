@@ -41,9 +41,9 @@ Optional Readings Key:
 | 03/22 | [PCA code](./notes/09-pca.ipynb)                                      | quiz 7 (see D2L)                          | DM - chapter 7                |
 | 03/24 | [PCA code cont](./notes/09-pca.ipynb)                                 | [proj 2](proj/02.pdf)                     | DM - chapter 7                |
 | 03/29 | [Clustering](./notes/10a-clust.pdf),[K-Means](./notes/10b-kmeans.pdf) | quiz 8 (see D2L)                          | DM - chapter 13               |
-| 03/31 | [DBSCAN - clean](./notes/10c-dbscan-clean.pdf)                        | [hw 4](hw/04.pdf)                         | DM - chapter 15               |
+| 03/31 | [DBSCAN - clean](./notes/10c-dbscan.pdf)                              | [hw 4](hw/04.pdf)                         | DM - chapter 15               |
 | 04/05 | [Clust + PCA Code](./notes/11a-clust-code.ipynb)                      | quiz 9 (see D2L)                          |                               |
-| 04/07 |  Clust Validation                                                     |                                           | DM - chapter 22               |
+| 04/07 | [F-Score](./notes/11b-fscore-clean)                                   |                                           | DM - chapter 22               |
 | 04/12 |                                                                       | quiz 10 (see D2L) [hw 5](hw/05.pdf)       |                               |
 | 04/14 |                                                                       | [proj 4.1](proj/04.pdf)                   |                               |
 | 04/19 |                                                                       | [proj 3](proj/03.pdf)                     |                               |
@@ -64,7 +64,7 @@ the current plan.
 | Week     | Topics                                        | Due
 |----------|-----------------------------------------------|---------------------------------------
 |12: 04/11 | Classification                                | quiz, homework
-|13: 04/18 | Adv topic (TBD)                               | quiz, proj 3: dim reduction & clustering
+|13: 04/18 | Classification                                | quiz, proj 3: dim reduction & clustering
 |14: 04/25 | Adv topic (TBD)                               | quiz, exam
 |15: 05/02 | Ethics                                        | quiz, homework
 |16: 05/09 | Final Project Presentations                   | final project
