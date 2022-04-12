@@ -43,7 +43,7 @@ Optional Readings Key:
 | 03/29 | [Clustering](./notes/10a-clust.pdf),[K-Means](./notes/10b-kmeans.pdf) | quiz 8 (see D2L)                          | DM - chapter 13               |
 | 03/31 | [DBSCAN - clean](./notes/10c-dbscan.pdf)                              | [hw 4](hw/04.pdf)                         | DM - chapter 15               |
 | 04/05 | [Clust + PCA Code](./notes/11a-clust-code.ipynb)                      | quiz 9 (see D2L)                          |                               |
-| 04/07 | [F-Score](./notes/11b-fscore-clean.pdf)                                   |                                           | DM - chapter 22               |
+| 04/07 | [F-Score](./notes/11b-fscore.pdf)                                     |                                           | DM - chapter 22               |
 | 04/12 |                                                                       | quiz 10 (see D2L) [hw 5](hw/05.pdf)       |                               |
 | 04/14 |                                                                       | [proj 4.1](proj/04.pdf)                   |                               |
 | 04/19 |                                                                       | [proj 3](proj/03.pdf)                     |                               |
