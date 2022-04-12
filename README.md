@@ -45,7 +45,7 @@ Optional Readings Key:
 | 04/05 | [Clust + PCA Code](./notes/11a-clust-code.ipynb)                      | quiz 9 (see D2L)                          |                               |
 | 04/07 | [F-Score](./notes/11b-fscore.pdf)                                     |                                           | DM - chapter 22               |
 | 04/12 | [Silhouette Coeff](./notes/12a-scoeff-clean.pdf)                      | quiz 10 (see D2L) [hw 5](hw/05.pdf)       | DM - chapter 17               |
-| 04/14 |                                                                       | [proj 4.1](proj/04.pdf)                   |                               |
+| 04/14 | [Hierarchical Clustering](./notes/12b-hierclust.key)                  | [proj 4.1](proj/04.pdf)                   | DM - chapter 14               |
 | 04/19 |                                                                       | [proj 3](proj/03.pdf)                     |                               |
 | 04/21 |                                                                       |                                           |                               |
 | 04/26 |                                                                       |                                           |                               |
