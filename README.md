@@ -45,14 +45,14 @@ Optional Readings Key:
 | 04/05 | [Clust + PCA Code](./notes/11a-clust-code.ipynb)                      | quiz 9 (see D2L)                          |                               |
 | 04/07 | [F-Score](./notes/11b-fscore.pdf)                                     |                                           | DM - chapter 22               |
 | 04/12 | [Silhouette Coeff](./notes/12a-scoeff-clean.pdf)                      | quiz 10 (see D2L) [hw 5](hw/05.pdf)       | DM - chapter 17               |
-| 04/14 | [Hierarchical Clustering](./notes/12b-hierclust.key)                  | [proj 4.1](proj/04.pdf)                   | DM - chapter 14               |
-| 04/19 |                                                                       | [proj 3](proj/03.pdf)                     |                               |
+| 04/14 | [Hierarchical Clustering](./notes/12b-hierclust.pdf)                  | [proj 4.1](proj/04.pdf)                   | DM - chapter 14               |
+| 04/19 | [Classification](./notes/13a-classification.pdf)                      | [proj 3](proj/03.pdf)                     |                               |
 | 04/21 |                                                                       |                                           |                               |
-| 04/26 |                                                                       |                                           |                               |
+| 04/26 |                                                                       | quiz 11 (see D2L)                         |                               |
 | 04/28 | Exam                                                                  |                                           |                               |
 | 05/03 |                                                                       |                                           |                               |
 | 05/05 |                                                                       |                                           |                               |
-| 05/03 |                                                                       |                                           |                               |
+| 05/03 | BotNot                                                                |                                           |                               |
 | 05/05 |                                                                       |                                           |                               |
 | 05/12 | Meeting 14:00-15:50                                                   | [proj 4.2-4](proj/04.pdf)                 |                               |
 
