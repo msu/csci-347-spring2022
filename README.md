@@ -44,10 +44,10 @@ Optional Readings Key:
 | 03/31 | [DBSCAN - clean](./notes/10c-dbscan.pdf)                              | [hw 4](hw/04.pdf)                         | DM - chapter 15               |
 | 04/05 | [Clust + PCA Code](./notes/11a-clust-code.ipynb)                      | quiz 9 (see D2L)                          |                               |
 | 04/07 | [F-Score](./notes/11b-fscore.pdf)                                     |                                           | DM - chapter 22               |
-| 04/12 | [Silhouette Coeff](./notes/12a-scoeff-clean.pdf)                      | quiz 10 (see D2L) [hw 5](hw/05.pdf)       | DM - chapter 17               |
+| 04/12 | [Silhouette Coeff](./notes/12a-scoeff.pdf)                            | quiz 10 (see D2L) [hw 5](hw/05.pdf)       | DM - chapter 17               |
 | 04/14 | [Hierarchical Clustering](./notes/12b-hierclust.pdf)                  | [proj 4.1](proj/04.pdf)                   | DM - chapter 14               |
-| 04/19 | [Classification](./notes/13a-classification.pdf)                      | [proj 3](proj/03.pdf)                     |                               |
-| 04/21 |                                                                       |                                           |                               |
+| 04/19 | [Classification](./notes/13a-classification.pdf)                      | [proj 3](proj/03.pdf)                     | DM - chapters 18 & 21         |
+| 04/21 | [Itemset Mining](./notes/13b-itemset.pdf)                             |                                           | DM - chapter 8                |
 | 04/26 |                                                                       | quiz 11 (see D2L)                         |                               |
 | 04/28 | Exam                                                                  |                                           |                               |
 | 05/03 |                                                                       |                                           |                               |
