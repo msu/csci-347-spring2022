@@ -48,7 +48,7 @@ Optional Readings Key:
 | 04/14 | [Hierarchical Clustering](./notes/12b-hierclust.pdf)                  | [proj 4.1](proj/04.pdf)                   | DM - chapter 14               |
 | 04/19 | [Classification](./notes/13a-classification.pdf)                      | [proj 3](proj/03.pdf)                     | DM - chapters 18 & 21         |
 | 04/21 | [Itemset Mining](./notes/13b-itemset.pdf)                             |                                           | DM - chapter 8                |
-| 04/26 | [Exam Review](./notes/14a-exam_review.pdf)                            | quiz 11 (see D2L)                         |                               |
+| 04/26 | [Exam Review](./notes/14a-exam_review-markup.pdf)                     | quiz 11 (see D2L)                         |                               |
 | 04/28 | Exam                                                                  |                                           |                               |
 | 05/03 |                                                                       |                                           |                               |
 | 05/05 |                                                                       |                                           |                               |
