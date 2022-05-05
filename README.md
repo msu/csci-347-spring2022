@@ -50,10 +50,8 @@ Optional Readings Key:
 | 04/21 | [Itemset Mining](./notes/13b-itemset.pdf)                             |                                           | DM - chapter 8                |
 | 04/26 | [Exam Review](./notes/14a-exam_review-markup.pdf)                     | quiz 11 (see D2L)                         |                               |
 | 04/28 | Exam                                                                  |                                           |                               |
-| 05/03 |                                                                       |                                           |                               |
-| 05/05 |                                                                       |                                           |                               |
 | 05/03 | BotNot                                                                |                                           |                               |
-| 05/05 |                                                                       |                                           |                               |
+| 05/05 | Data Ethics                                                           |                                           |                               |
 | 05/12 | Meeting 14:00-15:50                                                   | [proj 4.2-4](proj/04.pdf)                 |                               |
 
 The lecture schedule is subject to change throughout the semester, but here is
